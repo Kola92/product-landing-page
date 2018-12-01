@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <script src="js/script.js"></script> 
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar" class="navigation">
+            <div id="logo-container">
+               <figure class="side">
+                 <img src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665_960_720.png" id="header-img" alt="A Hummingbird Logo " />
+               </figure>        
+               <div id="logo-title" class="side">
+                 <h1>Wavy Design</h1>
+               </div>    
+            </div>  
+            <div class="toggle-btn">
+                <svg width="30" height="30" class="hamburger"
+                     onclick="openSlideMenu()">
+                    <path d="M0,5 30,5" stroke="#FFF" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#FFF" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#FFF" stroke-width="5" />
+                </svg>
+            </div>    
+            <ul id="menu">
+                <li>
+                    <a class="nav-link link" href="#features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-link link" href="#works">How It Works</a>
+                </li>
+                <li class="pricing-1">
+                    <a class="nav-link link" href="#pricing">Pricing</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="hero-container">
+            <h1>A custom-built beautifully designed website <span>tailored</span> to the type of experience your ideal audience craves.</h1>
+            <p>Brand stories are structured in the most engaging way possible to ensure your audience can experience the kind of value you bring to their lives.</p>
+
+
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <div>
+                    <input type="name" id="name" placeholder="First Name" required>  
+                </div>
+                <div>
+                    <input type="name" id="name" placeholder="Last Name" required>
+                </div>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+                
+                <input name="submitbutton" type="submit" id="submit" value="Reach out">
+            </form>
+        </div> 
+    </header>                
+
+    <main>
+        <section id="works" class="section-a">
+            <iframe width="1000" height="350" src="https://www.youtube.com/embed/gQRsgFw7tcg" frameborder="0" id="video"></iframe>
+        </section>
+
+        <section class="grid" id="section-b">
+            <ul id="services">
+                <li>
+                    <div class="card-content" id="features">
+                        <i class="fa fa-3x fa-pencil-ruler"></i>
+                        <h2 class="card-title">Website Development</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue lobortis orci, et bibendum elit ullamcorper at.</p>
+                    </div>
+                </li>    
+
+                <li>
+                    <div class="card-content">
+                        <i class="fas fa-trademark"></i>
+                        <h2 class="card-title">Branding</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue lobortis orci, et bibendum elit ullamcorper at.</p>
+                    </div>
+                </li>    
+
+                <li>
+                    <div class="card-content">
+                        <i class="fas fa-bullseye"></i>
+                        <h2 class="card-title">SEO & SMM Strategy</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue lobortis orci, et bibendum elit ullamcorper at.</p>
+                    </div>
+                </li>    
+            </ul>
+        </section>    
+
+        <section class="grid section-d" id="pricing">
+            <div id="pricing-1" class="content-wrap">
+                <h3 class="content-title">Web Template Development</h3>
+                <p>Praesent vitae mollis ligula, et ullamcorper purus.</p>
+                <p class="price">+$1000</p>
+                <p class="button"><button>Select</button></p>
+            </div>
+
+            <div class="content-wrap">
+                <h3 class="content-title">SEO & SMM Services</h3>
+                <p>Praesent vitae mollis ligula, et ullamcorper purus.</p>
+                <p class="price">+$2500</p>
+                <p class="button"><button>Select</button></p>
+            </div>
+
+                <div class="content-wrap">
+                    <h3 class="content-title">High End Custom Design</h3>
+                    <p>Praesent vitae mollis ligula, et ullamcorper purus.</p>
+                    <p class="price">+$4000</p>
+                    <p class="button"><button>Select</button></p>
+                </div>
+        </section>
+
+        <section id="section-e">
+            <div id="about" class="box">
+                <h2 class="heading">About Our Agency</h2>
+                <p>Praesent vitae mollis ligula, et ullamcorper purus. Nulla viverra tellus a nulla imperdiet ultricies. Donec dictum, arcu at sagittis accumsan</p>
+            </div>
+        </section>
+
+        <footer id=main-footer>
+                <div>&#169; Wavy Design 2018.</div>
+                <div>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>    
+        </footer>
+    </main>        
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
