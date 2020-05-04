@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily": "Consolas",
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.fontWeight": "600",
+    "editor.formatOnType": true,
+    "rest-client.fontSize": 16,
+    "rest-client.fontWeight": "600",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.fontWeight": "600"
+}
